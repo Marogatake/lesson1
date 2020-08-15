@@ -1,0 +1,230 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,a,li,ul,span,dl,dt,dd{
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.wrapper{
+  width: 375px;
+  margin: 0 auto;
+  border-left: 0.5px #000 solid;
+  border-right: 0.5px #000 solid;
+}
+/* headerの指定 */
+header{
+  height: 144px;
+}
+.header_wrapper{
+  width: 89.33%;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto 0;
+}
+.header_wrapper h1{
+  width: 205px;
+  height: 61px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 61px;
+  text-align: center;
+  padding: 10px 10px 11px 11px;
+  border: 1px #707070 solid;
+}
+.header_wrapper a{
+  color: #707070;
+}
+.menu_bar{
+}
+/* header終わり */
+/* .customer_imageの指定 */
+.customer_image{
+  height: 283px;
+}
+.customer_image h3{
+  font-size: 30px;
+  line-height: 41px;
+  color: #fff;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
+  margin-left: 24px;
+  padding-top: 128px;
+  position: relative;
+
+}
+.customer_image img{
+  margin-top: -169px;
+}
+/* .customer_image終わり */
+/* .contentsの指定 */
+.contents{
+  margin-top: 39px;
+  margin-bottom: -3px;
+}
+.content_wrapper{
+  width: 320px;
+  height: 385px;
+  margin: 0 auto;
+}
+.content_wrapper h4, .content_wrapper h5{
+  font-size: 15px;
+  line-height: 17px;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #3b3b3b;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 400;
+}
+/* .contents終わり */
+/* .developsの指定 */
+.develop_wrapper h2{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: normal;
+  font-size: 34px;
+  margin-top: 12px;
+  margin-bottom: 18px;
+  text-align: center;
+  color: #3b3b3b;
+  font-weight: 400;
+}
+.develop_wrapper p{
+  margin: 20px auto 53px;
+  width: 332px;
+  font-size: 14px;
+  line-height: 32px;
+  color: #3b3b3b;
+  font-weight: 400;
+}
+/* .develops終わり */
+/* .newsの指定 */
+.news_wrapper{
+  width: 335.74px;
+  margin: 7px auto 60.5px;;
+}
+.news_wrapper h2{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 7.5px;
+}
+.news_wrapper a{
+  color: #3b3b3b;
+}
+.news a{
+  display: flex;
+  padding-top: 12.5px;
+  padding-bottom: 14.5px;
+  padding-left: 2px;
+  border-bottom: #DEDEDE 1px solid;
+}
+.news a:hover{
+  background-color: #f0f0f0;
+}
+.news dt{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: #9b9b9b;
+  margin-right: 52px;
+  font-weight: 400;
+}
+.news dd{
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: normal;
+  font-size: 13px;
+  text-align: center;
+  color: #3b3b3b;
+  font-weight: 400;
+}
+/* .news終わり */
+/* .banners指定 */
+.banners{
+  margin-bottom: 56px;
+}
+.banner{
+  width: 76px;
+  display: block;
+  margin: 0 auto;
+  padding: 24px 142px 24px 123px;
+  margin-bottom: 30px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #3b3b3b;
+  border: 1px #707070 solid;
+}
+/* .banners終わり */
+/* footer指定 */
+footer{
+  background-color: #EBEBEB;
+  padding-top: 51px;
+}
+.footer_menu{
+  background-color: #fff;
+}
+.footer_menu a{
+  display: block;
+  padding: 16px 8px 16px 31px;
+  border: 1px #707070 solid;
+  font-weight: 400;
+  border-bottom: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 15px;
+  color: #707070;
+}
+.footer_menu a:hover{
+  background-color: #f0f0f0;
+}
+.inquiry{
+  border-bottom: 1px #707070 solid;
+
+}
+.company_info{
+  display: flex;
+}
+.company_info h2{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #3b3b3b;
+  margin: 53px 87px 79px 16px;
+}
+.company_info a{
+  color: #3b3b3b;
+}
+.address{
+  margin-top: 36px;
+}
+.address h3, .address a{
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #3b3b3b;
+  font-size: 13px;
+  margin-bottom: 12px;
+  font-weight: 300;
+}
+.copyright{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 12px;
+  padding-top: 20px;
+  padding-bottom: 22px;
+  text-align: center;
+  background-color: #6A6A6A;
+  color: #fff;
+}
+/* footer終わり */
