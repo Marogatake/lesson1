@@ -18,8 +18,6 @@ a{
 .wrapper{
   width: 375px;
   margin: 0 auto;
-  border-left: 0.5px #000 solid;
-  border-right: 0.5px #000 solid;
 }
 /* headerの指定 */
 header{
